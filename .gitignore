@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files
+*.log
+*.tmp
+
+# Audio cache
+.cache/
+
+# Generated audio
+*.wav
+*.mp3
+
+# Excel temporary files
+~$*.xlsx
+
+# Build
+build/
+dist/
+
+# Local configuration
+*.sqlite3
