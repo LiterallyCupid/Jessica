@@ -3,6 +3,7 @@ from datetime import datetime
 
 import config
 from modules.health import generate_health_briefing
+from modules.weather import generate_weather_briefing
 
 def build_briefing() -> str:
     now = datetime.now()
@@ -16,6 +17,7 @@ def build_briefing() -> str:
     ]
 
     briefing.extend(generate_health_briefing())
+    briefing.extend(generate_weather_briefing())
     briefing.append(random.choice(config.JESSICA_CLOSINGS))
 
     return " ".join(briefing)

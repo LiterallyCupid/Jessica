@@ -92,3 +92,9 @@ JESSICA_CLOSINGS = [
     "I've got everything ready.",
     "Let's build something today.",
 ]
+
+# ==========================================================
+# OpenWeather
+# ==========================================================
+
+WEATHER_CACHE_SECONDS = 600

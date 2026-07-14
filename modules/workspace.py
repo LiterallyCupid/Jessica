@@ -15,7 +15,7 @@ log = logging.getLogger(__name__)
 def play_song() -> None:
     try:
         subprocess.Popen(
-            [config.AIMP_EXE, config.TRACK_PATH],
+            [config.AIMP_EXE, "/PLAY"],
             stdin=subprocess.DEVNULL,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
