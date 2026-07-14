@@ -1,4 +1,5 @@
 from pathlib import Path
+import random
 
 # ==========================================================
 # Paths
@@ -84,6 +85,28 @@ DEFAULT_PCM_RATE = 24000
 # ==========================================================
 # Jessica
 # ==========================================================
+
+MORNING_GREETINGS = [
+    "Good morning, sir.",
+    "Morning, sir.",
+    "Good morning. I hope you slept well.",
+]
+
+AFTERNOON_GREETINGS = [
+    "Good afternoon, sir.",
+    "Welcome back, sir.",
+]
+
+EVENING_GREETINGS = [
+    "Good evening, sir.",
+    "Welcome home, sir.",
+    "Nice to see you again, sir.",
+]
+
+NIGHT_GREETINGS = [
+    "Good evening, sir.",
+    "Working late again, sir?",
+]
 
 JESSICA_CLOSINGS = [
     "Ready when you are.",

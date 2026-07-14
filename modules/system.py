@@ -20,12 +20,7 @@ def generate_system_briefing():
     briefing = []
     battery_info = _battery()
     if battery_info:
-        briefing.append(f"Battery is {'plugged in' if battery_info['plugged_in'] else 'not plugged in'}, at {battery_info['percent']}%")
+        briefing.append(f"Battery is {'plugged in' if battery_info['plugged_in'] else 'not plugged in'}, at {battery_info['percent']}%. ")
     if internet():
-        briefing.append("Connected to the Internet")
+        briefing.append("You are connected to the Internet. ")
     return briefing
-
-if __name__ == "__main__":
-    briefing = generate_system_briefing()
-    for line in briefing:
-        print(line)
